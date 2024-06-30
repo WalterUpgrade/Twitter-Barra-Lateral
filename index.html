@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS Iconos Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Barra Lateral X</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar active">
+
+            <div class="head">
+                <div class="user-img" id="toggle-sidebar">
+                    <img src="./image/IMG_3228.jpg" alt="">
+                </div>
+
+                <div class="user-details">
+                    
+                    <p class="title">Front End Developer</p>
+                    
+                    <p class="name">Walter Barrera</p>
+
+                </div>
+
+                <div class="person-icon">
+                    <a class="person">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
+                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                            <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"/>
+                          </svg>
+                    </a>
+                </div>
+
+            </div>
+            <div class="nav">
+                <div class="menu">
+                    <ul>
+                        <li class="">
+                            <a href="#">
+                                <i class="icon bi bi-person"></i>
+                                <span class="text">Perfil</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                  </svg>
+                                <span class="text">Premium</span>
+                                <i class="bi bi-arrow-down-short"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a class="#">
+                                        <i class="bi bi-bank"></i>
+                                        <span class="text">Monetización</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="#">
+                                        <i class="bi bi-graph-up"></i>
+                                        <span class="text">Estadisticas</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="active">
+                            <a href="#">
+                                <i class="icon bi bi-box-arrow-down"></i>
+                                <span class="text">Elementos guarda...</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <i class="bi bi-briefcase"></i>
+                                <span class="text">Empleos</span>
+                            </a>
+                        </li>
+
+                        <li class="active">
+                            <a href="#">
+                                <i class="bi bi-card-checklist"></i>
+                                <span class="text">Listas</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <i class="bi bi-mic"></i>
+                                <span class="text">Espacios</span>
+                            </a>
+                        </li>
+
+                        <li class="">
+                            <a href="#">
+                                <i class="bi bi-cash-coin"></i>
+                                <span class="text">Monetización</span>
+                            </a>
+                        </li>
+
+                        <li>
+
+                        <a href="#">
+                            <span class="text">Configuración y soporte</span>
+                            <i class="bi bi-arrow-down-short"></i>
+
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-question-circle"></i>
+                                    <span class="text">Centro de ayuda</span>
+                                </a>
+                            </li>
+
+                            <li>
+                            <a href="#">
+                                <i class="bi bi-cart"></i>
+                                <span class="text">Compras</span>
+                            </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-gear"></i>
+                                    <span class="text">Privacidad</span>
+                                </a>
+                                </li>
+
+                        </ul>
+
+                    </ul>
+                </div>
+                <li class="moon-color" style="position: relative;">
+                    <a href="#">
+                        <i class="bi bi-moon-stars"></i>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </div>
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+      integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
